@@ -20,7 +20,7 @@ const FlashSaleBanner = () => {
       </div>
       <div
         className="col-lg-6 left-half position-relative order-lg-1"
-        style={{ background: `url(${flashSale})` }}
+        style={{ background: `url(${flashSale})`, backgroundPosition: "top" }}
       ></div>
     </div>
   );

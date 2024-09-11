@@ -37,7 +37,7 @@ const Categorie = () => {
   return (
     <>
 
-      <div className="d-flex flex-row justify-content-center align-items-center">
+      <div className="d-flex flex-row justify-content-center align-items-center cats">
         {newCategories?.map((item) => (
           <div
             className="col-lg-3 col-sm-6 "
